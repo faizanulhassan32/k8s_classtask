@@ -16,8 +16,8 @@ pipeline {
     }
     stage('Push') {
         steps {
-        sh 'sudo docker tag mlops_task_2:latest faizanulhassa32/mlops_task_2:latest'
-        sh 'sudo docker push faizanulhassa32/mlops_task_2:latest'
+        sh 'sudo docker tag mlops_task_2:latest faizanulhassan32/mlops_task_2:latest'
+        sh 'sudo docker push faizanulhassan32/mlops_task_2:latest'
         }
     }
     stage('Execute') {
