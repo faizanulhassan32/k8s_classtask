@@ -20,6 +20,6 @@ jobs:
       with:
         python-version: 3.8.16
 
-    - name: Install al
+    - name: Install all
       run: |
         make all
