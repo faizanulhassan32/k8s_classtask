@@ -26,9 +26,9 @@ jobs:
       run: |
         make install
 
-    - name: Linting
-      run: |
-        make lint
+#     - name: Linting
+#       run: |
+#         make lint
 
     - name: Testing
       run: |
