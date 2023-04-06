@@ -20,18 +20,6 @@ jobs:
       with:
         python-version: 3.8.16
 
-    - name: Install dependencies
+    - name: Install al
       run: |
-        make install
-
-    - name: Testing
-      run: |
-        make test
-
-    - name: invoking
-      run: |
-        make invoke
-
-    - name: running-kube
-      run: |
-        make run-kube
+        make all
