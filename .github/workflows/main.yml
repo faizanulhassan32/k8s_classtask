@@ -3,7 +3,7 @@ name: Python cash app
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 
 jobs:
